@@ -19,7 +19,7 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .castImgThumb {
-  height: 180px;
+  height: auto;
   margin-bottom: 5px;
   overflow: hidden;
   object-fit: contain;

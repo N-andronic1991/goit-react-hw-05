@@ -1,0 +1,58 @@
+.detailsContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.genresList {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.posterThumb {
+  width: 250px;
+  height: auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.overview {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 8px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.genresHeading {
+  margin-bottom: 8px;
+}
+
+.additionalInf {
+  width: auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.infoText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.infoList {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.infoItem {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,36 @@
+.castList {
+  margin-right: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+}
+
+.castItem {
+  flex-basis: calc((100% - 6 * 10px) / 5);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #ececec;
+  border-top: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.castImgThumb {
+  height: 180px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.castContent {
+  flex-grow: 1;
+  padding: 6px;
+}
+
+.actorName {
+  font-weight: 600;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,33 @@
+.searchBtn {
+  display: inline-flex;
+  margin-left: 3px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #e2e5e8;
+  color: rgb(51, 48, 48);
+}
+
+.searchBtn:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+input {
+  padding: 6px 8px;
+  margin-bottom: 8px;
+  outline: none;
+  color: #e2e5e8;
+}
+
+input:hover,
+input:focus {
+  color: #1976d2;
+}
+
+::placeholder {
+  font-size: 12px;
+}
